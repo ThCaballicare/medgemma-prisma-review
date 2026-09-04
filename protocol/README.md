@@ -1,35 +1,31 @@
-# Review Protocol: Vision-Language Models for Local Radiology Analysis
+## 5. REQUISITOS DE DESIGN E CONFIGURAÇÃO DO EXPERIMENTO DO SISTEMA
 
-Este diretório contém o protocolo completo para a Revisão Sistemática da Literatura que fundamenta o desenvolvimento da arquitetura de triagem de pneumonia em dispositivos *edge*.
+O protocolo estabelece que as evidências colhidas na literatura respaldam metodologicamente o desenho experimental físico construído na pesquisa aplicada, conforme os parâmetros definidos a seguir.
 
----
+### 5.1 Otimização QLoRA no Host (Ajuste-Fino Supervisionado)
 
-## Objetivo da Revisão
+- **Modelo de Partida:** MedGemma 1.5 4B (decodificador Gemma 3 4B + encoder visual MedSigLIP 400M congelado de fábrica).
 
-Identificar e sintetizar evidências quantitativas sobre o desempenho de **Vision-Language Models (VLMs)** especializados em radiologia, com foco em técnicas de quantização e inferência local via motores como o `llama.cpp` em hardware de borda (ex.: NVIDIA Jetson).
+- **Parâmetros de Baixo Posto:** Injeção de matrizes LoRA treináveis de Rank $r=32$ e Alpha $\alpha=64$, correspondendo a um fator de escala constante de $\alpha/r=2$, nas projeções de atenção (`q_proj`, `k_proj`, `v_proj`, `o_proj`) e nas projeções lineares MLP (`gate_proj`, `up_proj`, `down_proj`) do decodificador Gemma 3.
 
----
+- **Matriz Linguística:** Pesos de base congelados em precisão de 4 bits, utilizando o formato NormalFloat 4 (NF4), por meio do framework PyTorch/Unsloth em estação local equipada com GPU NVIDIA RTX 4090 de 24 GB de VRAM.
 
-## Estrutura de Arquivos
+- **Engenharia de Prompt Estruturado (CoT):** Utilização da heurística _Reason-then-Summarize_, com alvos de treinamento estruturados para descrever obrigatoriamente as observações clínicas dentro do bloco delimitador `<think> ... </think>` antes de emitir a triagem diagnóstica estruturada em JSON na tag `<answer> ... </answer>`.
 
-Para facilitar a reprodução do estudo por outros pesquisadores, a documentação está dividida da seguinte forma:
+### 5.2 Deploy Local no Dispositivo de Borda (NVIDIA Jetson)
 
-* **[`protocol.md`](protocol.md):** Documento principal detalhando o fluxo de trabalho seguindo a diretriz PRISMA 2020. Inclui a estratégia de busca nas bases PubMed, arXiv, IEEE Xplore, ACM e Google Scholar, além do cronograma previsto.
-* **[`review_questions.md`](review_questions.md):** Define as 7 Questões de Pesquisa (RQs) que guiam a extração de dados, focando em arquiteturas de modelos (ex.: MedGemma), frequência de datasets (ex.: BRAX, MIMIC-CXR) e métricas de eficiência técnica e clínica.
-* **[`eligibility.md`](eligibility.md):** Estabelece os critérios rigorosos de inclusão e exclusão. Focam em artigos revisados por pares, disponibilidade de texto completo e suporte técnico para execução offline/local, garantindo a soberania dos dados conforme a LGPD.
+- **Plataforma Física:** Kit de desenvolvimento NVIDIA Jetson Orin Nano Developer Kit, com 8 GB de memória unificada, operando sob limite estrito de potência de **15 W**.
 
----
+- **Compilação e Aceleração:** Motor de inferência de baixo nível `llama.cpp`, compilado localmente em C++, utilizando a pilha de aceleração CUDA disponibilizada pelo ambiente JetPack instalado no dispositivo.
 
-## Contexto Técnico do Artigo
+- **Formato de Execução:** O modelo resultante do processo de ajuste-fino é convertido offline para um formato binário compatível com o `llama.cpp`, utilizando o padrão **GGUF** e uma configuração de quantização de 4 bits, com destaque para a variante **Q4_K_M**, visando reduzir o consumo de memória e o custo computacional da inferência.
 
-A revisão aqui documentada serve de base para a validação do modelo **MedGemma 1.5 (4B)** submetido a ajuste-fino via Unsloth e quantizado para o formato GGUF. O objetivo final é medir o *trade-off* entre acurácia clínica (F1-Score) e latência em sistemas hospitalares com infraestrutura tecnológica limitada.
+- **Otimização por Quantização:** Quando aplicável, técnicas de quantização pós-treinamento baseadas em consciência de ativações, como **AWQ (Activation-aware Weight Quantization)**, serão avaliadas como estratégia de redução da precisão dos pesos. A comparação deverá distinguir explicitamente o método de quantização utilizado do formato final de armazenamento e execução, evitando tratar AWQ e Q4_K_M como conceitos equivalentes.
 
----
+- **Aceleração de Baixo Nível:** A execução utiliza kernels CUDA para exploração da GPU integrada do SoC Tegra, enquanto operações executadas no processador ARM podem utilizar instruções SIMD **ARM NEON**. Essa separação permite avaliar individualmente o impacto da aceleração por GPU e das otimizações vetoriais da CPU sobre a latência e a eficiência energética da inferência.
 
-## Diretrizes de Qualidade
+- **Telemetria Física:** Durante a execução, serão monitorados a latência de geração, a taxa de processamento em tokens por segundo, o pico de utilização da memória unificada, a potência consumida e, quando disponível, as temperaturas dos componentes computacionais.
 
-Os estudos selecionados através deste protocolo são avaliados quanto à:
+- **Restrição Operacional:** Todos os testes de inferência deverão ser realizados localmente, sem dependência de APIs externas ou processamento remoto em nuvem, mantendo o dispositivo dentro do limite energético estabelecido de **15 W**.
 
-1. **Clareza da arquitetura do modelo.**
-2. **Disponibilidade de código e pesos (reprodutibilidade).**
-3. **Uso de conjuntos de teste independentes (*held-out*).**
+- **Objetivo do Deploy:** Avaliar a viabilidade de execução offline de um VLM médico quantizado para triagem de pneumonia em ambiente de computação de borda, estabelecendo uma relação quantitativa entre desempenho diagnóstico, latência, consumo de memória e eficiência energética.

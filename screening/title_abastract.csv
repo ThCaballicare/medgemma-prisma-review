@@ -132,3 +132,22 @@
 131,Invited Paper: Experimental Analysis of Distributed Agentic Large-Language Model Inference Architectures,"Kartik Padalkar, Vitor Jesus, Jose M. Alcaraz Calero",,,,,,https://doi.org/10.1145/3820355.3820384,,,ACM Digital Library
 132,CFALR: Collaborative Filtering-Augmented Large Language Model for Personalized Fashion Outfit Recommendation,"Yujuan Ding, Junrong Liao, Yunshan Ma, Yi Bin, Wenqi Fan, Tat-Seng Chua, Qing Li",,,,,,https://doi.org/10.1145/3829367,,,ACM Digital Library
 133,Prompt Inference Attack on Distributed Large Language Model Inference Frameworks,"Xinjian Luo, Ting Yu, Xiaokui Xiao",,,,,,https://doi.org/10.1145/3719027.3744820,,,ACM Digital Library
+134,Avaliação da quantização de modelos visuais de linguagem para implantação em ambiente hospitalar,,,,,,,https://sol.sbc.org.br/index.php/sibgrapi_estendido/article/view/38312/38086,,,Google Scholar
+135,ChestGPT: Integrating Large Language Models and Vision Transformers for Disease Detection and Localization in Chest ,,,,,,,https://arxiv.org/abs/2507.03739,,,Google Scholar
+136,Efficient and Trustworthy AI for Pneumonia Detection on Edge Devices ,,,,,,,https://www.researchgate.net/publication/395115022_Efficient_and_Trustworthy_AI_for_Pneumonia_Detection_on_Edge_Devices,,,Google Scholar
+137,Evaluation of Machine Learning Methods Developed for Prediction and Diagnosis of Pneumonia: A Systematic Review ,,,,,,,https://pmc.ncbi.nlm.nih.gov/articles/PMC12665151/,,,Google Scholar
+138,MediVLM: A Vision Language Model for Radiology Report Generation from Medical Images ,,,,,,,https://aclanthology.org/2025.findings-emnlp.544/,,,Google Scholar
+139,Pneumonia Detection from Chest X‑Ray Images Using Deep Learning and Transfer Learning for Imbalanced Datasets ,,,,,,,https://www.researchgate.net/publication/385934090_Pneumonia_Detection_from_Chest_X-Ray_Images_Using_Deep_Learning_and_Transfer_Learning_for_Imbalanced_Datasets,,,Google Scholar
+140,Segmentation-Guided Radiology Report Generation for Pneumothorax Detection in Chest X-Rays,,,,,,,https://proceedings.mlr.press/v317/jia26a.html,,,Google Scholar
+141,Taming Vision-Language Models for Medical Image Analysis: A Comprehensive Review ,,,,,,,https://arxiv.org/abs/2506.18378,,,Google Scholar
+142,Vision Language Models in Medicine ,,,,,,,https://arxiv.org/abs/2503.01863,,,Google Scholar
+143,Vision-Language Models in Medical Applications: A Review ,,,,,,,https://ieeexplore.ieee.org/document/11569928/,,,Google Scholar
+144,AWQ: ACTIVATION-AWARE WEIGHT QUANTIZATION FOR ON-DEVICE LLM COMPRESSION AND ACCELERATION ,,,,,,,https://arxiv.org/abs/2306.00978,,,Google Scholar
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
