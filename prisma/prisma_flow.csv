@@ -1,0 +1,12 @@
+etapa,subetapa,registros,simbolo,descricao
+Identificação,Registros identificados,64878,Ni,"Total de registros brutos recuperados nas cinco bases de dados"
+Identificação,Duplicatas removidas,9475,D,"Registros duplicados removidos após consolidação das bases"
+Triagem,Registros únicos para triagem,55403,N1,"Registros restantes após a remoção de duplicatas"
+Triagem,Excluídos na primeira filtragem,55258,T,"Registros irrelevantes ou fora do escopo técnico excluídos na filtragem inicial"
+Triagem,Selecionados para triagem detalhada,145,N2,"Registros selecionados para análise manual detalhada de título e resumo"
+Triagem,Excluídos na triagem detalhada,86,T2,"Registros excluídos por falta de aderência clínica direta ou arquiteturas não generalizáveis"
+Elegibilidade,Textos completos selecionados,59,Nfull,"Artigos selecionados para recuperação e leitura integral"
+Elegibilidade,Textos completos excluídos,4,A,"Artigos excluídos após leitura completa por não atenderem aos critérios de inclusão"
+Inclusão,Estudos incluídos,55,Nf,"Estudos acadêmicos incluídos na revisão sistemática"
+Inclusão,Referencial da Dissertação,53,Nf1,"Estudos utilizados como suporte teórico geral da dissertação"
+Inclusão,Referencial do Sistema,2,Nf2,"Estudos utilizados como suporte técnico estrito do sistema embarcado"

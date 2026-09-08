@@ -1,0 +1,4 @@
+saida,simbolo,quantidade,descricao
+Referencial da Dissertação,Nf1,53,"Estudos utilizados como suporte teórico geral, incluindo fundamentos clínicos, engenharia de prompt, calibração e características do dataset BRAX"
+Referencial do Sistema,Nf2,2,"Estudos utilizados como suporte técnico para o pipeline embarcado offline no NVIDIA Jetson"
+Total,Nf,55,"Corpus final de estudos incluídos"
