@@ -62,17 +62,19 @@ Os **55 estudos científicos incluídos** na revisão foram categorizados confor
 A conciliação de todas as métricas contidas nesta pasta é validada de forma determinística pela equação de controle do fluxo:
 
 $$
-\mathbf{N_f} = \mathbf{N_i} - \mathbf{D} - \mathbf{T_1} - \mathbf{T_2} - \mathbf{A}
+\mathbf{N}_f = \mathbf{N}_i - \mathbf{D} - \mathbf{T}_1 - \mathbf{T}_2 - \mathbf{A}
 $$
 
 $$
-\mathbf{55} = \mathbf{64.878} - \mathbf{9.475} - \mathbf{55.258} - \mathbf{86} - \mathbf{4} \quad lacksquare
+\mathbf{55} = \mathbf{64.878} - \mathbf{9.475} - \mathbf{55.258} - \mathbf{86} - \mathbf{4}
 $$
 
 E a aditividade conservativa da Saída Dupla:
 
 $$
-\mathbf{N_f} = \mathbf{N_{f1}} + \mathbf{N_{f2}} \implies \mathbf{55} = \mathbf{53} + \mathbf{2} \quad lacksquare
+\mathbf{N}_f = \mathbf{N}_{f1} + \mathbf{N}_{f2}
+\implies
+\mathbf{55} = \mathbf{53} + \mathbf{2}
 $$
 
 ---
