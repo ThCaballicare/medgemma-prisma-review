@@ -79,7 +79,7 @@ Os $N_f = 55$ estudos científicos incluídos são posteriormente classificados 
 
 A conciliação matemática integral do fluxo **PRISMA 2020 (v8 - Saída Dupla)** é verificada programaticamente pelos scripts de auditoria em `scripts/`. Para garantir visibilidade e clareza absoluta, a relação entre as variáveis de entrada, taxas de rejeição por etapa e o corpus final incluído é modelada formalmente sob a seguinte equação de controle global:
 
-### 📐 Equação de Controle Global de Fluxo
+### Equação de Controle Global de Fluxo
 
 $$\large \mathbf{N_f} = \mathbf{N_i} - \mathbf{D} - \mathbf{T_1} - \mathbf{T_2} - \mathbf{A}$$
 
@@ -89,7 +89,7 @@ $$\large \mathbf{55} = \mathbf{64.878} - \mathbf{9.475} - \mathbf{55.258} - \mat
 
 ---
 
-### 🧮 Decomposição Simbólica e Mapeamento de Variáveis
+### Decomposição Simbólica e Mapeamento de Variáveis
 
 | Símbolo Matemático | Denominação Metodológica           |    Valor ($n$)    | Operação e Função Lógica no Funil                                |
 | :----------------: | :--------------------------------- | :---------------: | :--------------------------------------------------------------- |
@@ -102,7 +102,7 @@ $$\large \mathbf{55} = \mathbf{64.878} - \mathbf{9.475} - \mathbf{55.258} - \mat
 
 ---
 
-### 🔀 Validação da Classificação de Saída Dupla (Dual-Output)
+### Validação da Classificação de Saída Dupla (Dual-Output)
 
 A partição do corpus final ($\mathbf{N_f}$) nas duas vertentes de suporte metodológico é formalizada pela equação de aditividade conservativa:
 
@@ -112,15 +112,22 @@ $$\large \mathbf{55} = \mathbf{53}_{	ext{(Suporte Teórico - Dissertação)}} + 
 
 ---
 
-### 🔄 Equações do Funil Etapa por Etapa
+### Equações do Funil Etapa por Etapa
 
 $$
-egin{aligned}
-\mathbf{N_1} \;(	ext{Únicos Triados}) &= \mathbf{N_i} - \mathbf{D} &&= 64.878 - 9.475 &&= \mathbf{55.403} \
-\mathbf{N_2} \;(	ext{Selecionados T/R}) &= \mathbf{N_1} - \mathbf{T_1} &&= 55.403 - 55.258 &&= \mathbf{145} \
-\mathbf{N_{full}} \;(	ext{Lidos na Íntegra}) &= \mathbf{N_2} - \mathbf{T_2} &&= 145 - 86 &&= \mathbf{59} \
-\mathbf{N_f} \;(	ext{Incluídos Final}) &= \mathbf{N_{full}} - \mathbf{A} &&= 59 - 4 &&= \mathbf{55}
-\end{aligned}
+N_1 = N_i - D = 64.878 - 9.475 = 55.403
+$$
+
+$$
+N_2 = N_1 - T_1 = 55.403 - 55.258 = 145
+$$
+
+$$
+N_{full} = N_2 - T_2 = 145 - 86 = 59
+$$
+
+$$
+N_f = N_{full} - A = 59 - 4 = 55
 $$
 
 ---
