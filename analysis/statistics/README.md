@@ -9,7 +9,7 @@ Este diretório contém os resultados, métricas quantitativas, tabelas analíti
 Os arquivos mantidos neste diretório fornecem a fundamentação quantitativa para o manuscrito e alimentam os painéis de auditoria do repositório, cobrindo os seguintes eixos de análise:
 
 - **Estatísticas Descritivas das Buscas:** Consolidação das frequências absolutas e relativas por base bibliográfica ($B_i$).
-- **Distribuição Temporal:** Evolução cronológica das publicações sobre VLMs e otimizações de borda no intervalo de **2020 a 2026**.
+- **Distribuição Temporal:** Evolução cronológica das publicações sobre VLMs e otimizações de borda no intervalo de **2023 a 2026**.
 - **Análise de Duplicação:** Taxa de sobreposição entre bases de dados e métricas do descarte de duplicatas ($D = 9.475$).
 - **Taxas de Rejeição por Etapa:** Indicadores de atrito nas fases de triagem rápida (_coarse screening_), triagem fina (_detailed screening_) e elegibilidade em texto completo (_full-text eligibility_).
 - **Tabelas de Validação PRISMA 2020:** Sincronização e auditoria matemática das equações do fluxo **PRISMA v8 (Saída Dupla)**.
@@ -86,7 +86,7 @@ analysis/statistics/
 ├── search_distribution.csv      # Frequências e proporções por base de dados (B_i)
 ├── overlap_matrix.csv          # Matriz de sobreposição e taxa de duplicatas (D)
 ├── rejection_breakdown.csv     # Motivos e quantitativos de exclusão (T_1, T_2, A)
-├── temporal_trends.csv         # Distribuição de publicações por ano (2020–2026)
+├── temporal_trends.csv         # Distribuição de publicações por ano (2023–2026)
 └── prisma_validation.csv       # Tabela mestre de conciliação do funil PRISMA v8
 ```
 

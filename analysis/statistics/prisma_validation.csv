@@ -1,0 +1,7 @@
+Equacao_Nome,Expressao_Matematica,Valores_Empiricos,Status_Validacao
+Identificação e Deduplicação,N1 = Ni - D,55403 = 64878 - 9475,VALIDE
+Triagem Inicial (Coarse),N2 = N1 - T1,145 = 55403 - 55258,VALIDE
+Triagem Detalhada (Detailed),Nfull = N2 - T2,59 = 145 - 86,VALIDE
+Leitura Completa (Elegibilidade),Nf = Nfull - A,55 = 59 - 4,VALIDE
+Controle Global PRISMA v8,Nf = Ni - D - T1 - T2 - A,55 = 64878 - 9475 - 55258 - 86 - 4,VALIDE
+Aditividade Saída Dupla,Nf = Nf1 + Nf2,55 = 53 + 2,VALIDE

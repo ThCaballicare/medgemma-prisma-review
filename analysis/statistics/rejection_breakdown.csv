@@ -1,0 +1,4 @@
+Etapa_PRISMA,Simbolo,Avaliados,Rejeitados,Taxa_Rejeicao_Percentual,Motivo_Principal_Exclusao
+Triagem Inicial (Coarse),T1,55403,55258,99.74,"Ausência de foco em VLM, inteligência artificial multimodal ou radiologia médica."
+Triagem Detalhada (Detailed),T2,145,86,59.31,Falta de aderência clínica direta ou arquiteturas não generalizáveis para diagnóstico de imagem.
+Leitura Completa (Elegibilidade),A,59,4,6.78,"Documentos não científicos (manuais de ferramentas, tutoriais de código, duplicatas residuais de parsing)."

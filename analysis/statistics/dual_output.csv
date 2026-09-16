@@ -1,0 +1,3 @@
+Categoria,Simbolo,Quantidade,Proporcao_Percentual,Descricao
+Referencial da Dissertação,Nf1,53,96.36,"Suporte teórico geral: Baselines clínicas, dados BRAX/MIMIC, calibração de temperatura, engenharia de prompt CoT"
+Referencial do Sistema,Nf2,2,3.64,"Suporte técnico e de engenharia: Telemetria em Jetson 15W, AWQ por magnitude de ativações, llama.cpp em C++ nativo"

@@ -1,0 +1,10 @@
+Etapa,Simbolo,Quantidade,Descricao
+Identificação Bruta,Ni,64878,"Registros recuperados em PubMed, arXiv, IEEE, Scholar e ACM"
+Deduplicação,D,9475,Duplicatas removidas via scripts de correspondência de strings
+Registros Únicos Triados,N1,55403,Estudos submetidos à primeira triagem de título/resumo
+Excluídos na Triagem Inicial,T1,55258,Excluídos por falta de relevância clínica/técnica
+Selecionados para Análise Fina,N2,145,Estudos pré-selecionados para análise manual de resumos
+Excluídos na Triagem Detalhada,T2,86,Excluídos na análise manual fina de resumos
+Leitura Completa (Texto Integral),Nfull,59,Artigos recuperados e lidos na íntegra
+Excluídos na Leitura Completa,A,4,Relatórios não científicos (manuais e tutoriais de código)
+Estudos Incluídos Final,Nf,55,Corpus final de 55 estudos científicos de suporte
