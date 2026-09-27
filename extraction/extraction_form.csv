@@ -1,0 +1,27 @@
+field_name,data_type,description,requirement
+record_id,String / ID,Identificador único do estudo no corpus (ex.: EXP-001),Obrigatório
+title,String,Título completo da publicação científica,Obrigatório
+authors,String,"Lista de autores principais (Sobrenome, N. et al.)",Obrigatório
+year,Integer,Ano de publicação (2020–2026),Obrigatório
+doi,String / URL,Digital Object Identifier ou link do repositório/arXiv,Obrigatório
+venue,String,"Nome do periódico, conferência ou repositório de preprint",Obrigatório
+study_type,Categorical,"Tipo de estudo (Experimental, Comparativo, Benchmark, Revisão)",Obrigatório
+clinical_domain,String,"Especialidade médica (Radiologia de Tórax, Pneumologia)",Obrigatório
+imaging_modality,String,"Modalidade de imagem radiológica (CXR, CT 3D, MRI)",Obrigatório
+dataset,String,"Conjunto de dados de imagem utilizado (BRAX, MIMIC-CXR, CheXpert, PadChest)",Obrigatório
+dataset_size,String / Integer,Quantidade total de exames/imagens e laudos utilizados,Obrigatório
+model,String,"Denominação específica do modelo VLM (MedGemma 1.5 4B, CheXagent, RadVLM)",Obrigatório
+model_family,String,"Família da arquitetura base (Gemma 3, Llama 3, ViT, Swin)",Obrigatório
+vision_language,String,"Codificador de imagem e alinhamento multimodal (MedSigLIP 400M, CLIP, BioViL)",Obrigatório
+task,String,"Tarefa clínica avaliada (Classificação de Pneumonia, Report Generation, VQA)",Obrigatório
+training_strategy,String,"Estratégia de treino (Supervised Fine-Tuning - SFT, Zero-Shot, CoT)",Obrigatório
+fine_tuning,String,"Técnica de adaptação de parâmetros (QLoRA NF4 4-bit, LoRA, Full FT)",Obrigatório
+quantization,String,"Técnica de compressão pós-treinamento (AWQ, GGUF Q4_K_M, PTQ 4-bit)",Obrigatório
+edge_computing,Categorical (Sim/Não),Avalia ou executa inferência em computação de borda local offline,Obrigatório
+hardware,String,"Especificação física do hardware de teste (NVIDIA Jetson Orin Nano 15W, RTX 4090)",Obrigatório
+inference_framework,String,"Motor/framework de execução local (llama.cpp C++, vLLM, Ollama)",Obrigatório
+evaluation_metrics,String,"Métricas quantitativas avaliadas (F1-Score, RadGraph F1, ROUGE-L, Latência, VRAM)",Obrigatório
+main_results,String,Síntese quantitativa dos principais resultados obtidos pelo estudo,Obrigatório
+limitations,String,"Limitações reportadas (viés de dataset, gargalo de VRAM, sobrecarga de CPU)",Opcional
+relevance_to_review,Categorical,Classificação no PRISMA v8 (Referencial Dissertação / Referencial Sistema),Obrigatório
+notes,Text,Observações adicionais de auditoria ou concordância entre revisores,Opcional

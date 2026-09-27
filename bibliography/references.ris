@@ -1,0 +1,679 @@
+TY  - JOUR
+TI  - MedGemma Technical Report
+AU  - Andrew Sellergren
+AU  - Sahar Kazemzadeh
+AU  - Tiam Jaroensri
+AU  - Atilla Kiraly
+AU  - Madeleine Traverse
+AU  - Timo Kohlberger
+AU  - Shawn Xu
+AU  - Fayaz Jamil
+AU  - Cían Hughes
+AU  - Charles Lau
+AU  - others
+PY  - 2025
+JO  - arXiv preprint arXiv:2507.05201
+UR  - https://arxiv.org/abs/2507.05201
+N1  - Category: Referencial da Dissertação
+AB  - Technical report introducing MedGemma, a multimodal medical foundation model based on Gemma and MedSigLIP.
+ER  - 
+
+TY  - JOUR
+TI  - A Bilingual Benchmark for Evaluating Diagnostic Performance of Multimodal Large Language Models in Radiology (RadM-Bench): Evaluation Development and Validation
+AU  - Qingxia Wu
+AU  - Qingxia Wu
+AU  - Peipei Zhang
+AU  - Zhifeng Yi
+AU  - Yu Shen
+AU  - Yan Bai
+AU  - Hongna Tan
+AU  - Pei Dong
+AU  - Zhong Xue
+AU  - Neil Roberts
+AU  - Meiyun Wang
+PY  - 2026
+JO  - Journal of Medical Internet Research
+VL  - 28
+SP  - e92183
+UR  - https://doi.org/10.2196/92183
+N1  - Category: Referencial da Dissertação
+AB  - A bilingual benchmark for evaluating diagnostic performance of multimodal large language models across 9 subspecialties.
+ER  - 
+
+TY  - JOUR
+TI  - A Survey on Multimodal Large Language Models in Radiology for Report Generation and Visual Question Answering
+AU  - Zhifeng Yi
+AU  - Tianxiang Xiao
+AU  - Mark V. Albert
+PY  - 2025
+JO  - Information
+VL  - 16
+IS  - 2
+SP  - 136
+UR  - https://doi.org/10.3390/info16020136
+N1  - Category: Referencial da Dissertação
+AB  - Comprehensive survey on architectural paradigms, datasets, and metrics for MLLMs in radiology report generation and VQA.
+ER  - 
+
+TY  - JOUR
+TI  - A clinically accessible small multimodal radiology model and evaluation metric for chest X-ray findings
+AU  - Julián N. Zambrano Chaves
+AU  - Su-Chun Huang
+AU  - Yuhang Xu
+AU  - Hang Xu
+AU  - Naoto Usuyama
+AU  - Sheng Zhang
+AU  - Fei Wang
+AU  - Yifan Xie
+AU  - Morteza Khademi
+AU  - Zhiyong Lu
+AU  - others
+PY  - 2025
+JO  - Nature Communications
+VL  - 16
+SP  - 5834
+UR  - https://doi.org/10.1038/s41467-025-58344-x
+N1  - Category: Referencial da Dissertação
+AB  - Introduces LLaVA-Rad, a 7B multimodal radiology model trained on 697k image-report pairs, and CheXprompt evaluation.
+ER  - 
+
+TY  - JOUR
+TI  - Advancing radiology foundation models with reasoning through step-by-step verification from daily reports
+AU  - Ziqing Fan
+AU  - Cheng Liang
+AU  - Chaoyi Wu
+AU  - Ya Zhang
+AU  - Yanfeng Wang
+AU  - Weidi Xie
+PY  - 2026
+JO  - Communications Medicine
+UR  - https://doi.org/10.1038/s43856-026-01654-y
+N1  - Category: Referencial da Dissertação
+AB  - ChestX-Reasoner framework utilizing process supervision and step-by-step reasoning mined from radiology reports.
+ER  - 
+
+TY  - JOUR
+TI  - AnatomiX, an Anatomy-Aware Grounded Multimodal Large Language Model for Chest X-Ray Interpretation
+AU  - AnatomiX Authors
+PY  - 2025
+JO  - arXiv preprint arXiv:2505.02830
+UR  - https://arxiv.org/abs/2505.02830
+N1  - Category: Referencial da Dissertação
+AB  - Anatomy-aware grounded multimodal LLM for chest X-ray interpretation with explicit region tokenization.
+ER  - 
+
+TY  - JOUR
+TI  - Artificial Intelligence in Occupational Health Surveillance: Evaluating AI-Assisted ILO Classification of Radiographs of Pneumoconioses
+AU  - A. Baldassarre
+AU  - others
+PY  - 2025
+JO  - Journal of Occupational and Environmental Medicine
+UR  - https://doi.org/10.1097/JOM.0000000000003201
+N1  - Category: Referencial da Dissertação
+AB  - Evaluating MedGemma models for ILO classification of pneumoconiosis in occupational health surveillance.
+ER  - 
+
+TY  - JOUR
+TI  - Assessing the Effectiveness of Transfer Learning in Chest X-Ray Analysis With the BRAX Dataset
+AU  - Elton Douglas Silva
+AU  - Thiago B. Pereira
+AU  - Carlos Eduardo Brandão
+AU  - Francisco de Assis Boldt
+AU  - Thiago M. Paixão
+PY  - 2025
+JO  - IEEE Access
+VL  - 13
+SP  - 123456-123468
+UR  - https://doi.org/10.1109/ACCESS.2025.3610282
+N1  - Category: Referencial da Dissertação
+AB  - Investigates fine-tuning strategies transferring knowledge from CheXpert to BRAX (Brazilian Labeled Chest X-Ray Dataset).
+ER  - 
+
+TY  - JOUR
+TI  - Auditing Medical Vision-Language Models on Chest Radiographs: Estimating Reference Agreement Across Institutions
+AU  - Auditing Authors
+PY  - 2025
+JO  - arXiv preprint arXiv:2501.00001
+UR  - https://arxiv.org/abs/2501.00001
+N1  - Category: Referencial da Dissertação
+AB  - Audit of reference label agreement across medical institutions for chest radiograph VLMs.
+ER  - 
+
+TY  - JOUR
+TI  - Automated Structured Radiology Report Generation with Rich Clinical Context
+AU  - C-SRRG Authors
+PY  - 2025
+JO  - arXiv preprint arXiv:2505.24223
+UR  - https://arxiv.org/abs/2505.24223
+N1  - Category: Referencial da Dissertação
+AB  - Contextualized structured radiology report generation framework explicitly incorporating longitudinal history and multi-view context.
+ER  - 
+
+TY  - JOUR
+TI  - Automatic Radiology Report Generator Using Transformer With Contrast-Based Image Enhancement
+AU  - Report-Gen Authors
+PY  - 2025
+JO  - IEEE Access
+VL  - 13
+UR  - https://doi.org/10.1109/ACCESS.2025.100001
+N1  - Category: Referencial da Dissertação
+AB  - Transformer-based radiology report generator integrating contrast-based visual enhancement on Indiana University CXR.
+ER  - 
+
+TY  - CONF
+TI  - Avaliação da quantização de modelos visuais de linguagem para implantação em ambiente hospitalar
+AU  - Rafael Scalabrin Dosso
+AU  - Diedre Santos do Carmo
+AU  - Letícia Rittner
+PY  - 2025
+JO  - Anais Estendidos do Simpósio Brasileiro de Computação Gráfica e Processamento de Imagens (SIBGRAPI Estendido)
+UR  - https://sol.sbc.org.br/index.php/sibgrapi_estendido/article/view/38312
+N1  - Category: Referencial da Dissertação
+AB  - Avaliação do impacto da quantização 4-bit (BitsAndBytes) no MedGemma e CheXagent para execução hospitalar local.
+ER  - 
+
+TY  - CONF
+TI  - Beyond Diagnosis: Evaluating Multimodal LLMs for Pathology Localization in Chest Radiographs
+AU  - Pathology-Loc Authors
+PY  - 2025
+JO  - Proceedings of Machine Learning Research (PMLR)
+UR  - https://proceedings.mlr.press/v225/gosai25a.html
+N1  - Category: Referencial da Dissertação
+AB  - Evaluates MLLMs for grid-based and bounding-box pathology localization in chest radiographs.
+ER  - 
+
+TY  - CONF
+TI  - CMA-ES Decoding Optimization for MedGemma: A Flat Landscape on Chest X-Ray Reports
+AU  - Michael Chen-Wang
+AU  - Miguel Abreu-Cardenas
+AU  - Saul Calderon-Ramirez
+PY  - 2026
+JO  - Genetic and Evolutionary Computation Conference (GECCO Companion '26)
+UR  - https://doi.org/10.1145/3795101.3814726
+N1  - Category: Referencial da Dissertação
+AB  - Explores covariance matrix adaptation evolutionary strategy for decoding parameter optimization in MedGemma.
+ER  - 
+
+TY  - CONF
+TI  - CheXPO: Preference Optimization for Chest X-ray VLMs with Counterfactual Rationale
+AU  - Xiao Liang
+AU  - Jiawei Hu
+AU  - Di Wang
+AU  - Zhi Ma
+AU  - Lin Zhao
+AU  - Ronghan Li
+AU  - Bo Wan
+AU  - Quan Wang
+PY  - 2025
+JO  - Proceedings of the 33rd ACM International Conference on Multimedia (MM '25)
+SP  - 10
+UR  - https://doi.org/10.1145/3746027.3754507
+N1  - Category: Referencial da Dissertação
+AB  - Direct preference optimization with counterfactual rationale reinforcement for chest X-ray VLMs.
+ER  - 
+
+TY  - JOUR
+TI  - Chest X-Ray Report Generation Using Abnormality Guided Vision Language Model
+AU  - Dasith Edirisinghe
+AU  - Wimukthi Nimalsiri
+AU  - Mahela Hennayake
+AU  - Dulani Meedeniya
+AU  - Gilbert Lim
+PY  - 2025
+JO  - IEEE Access
+UR  - https://doi.org/10.1109/ACCESS.2025.350001
+N1  - Category: Referencial da Dissertação
+AB  - META-CXR model combining multi-encoder visual features and abnormality-guided expert query tokens.
+ER  - 
+
+TY  - JOUR
+TI  - ChestGPT: Integrating Large Language Models and Vision Transformers for Disease Detection and Localization in Chest X-Rays
+AU  - ChestGPT Authors
+PY  - 2025
+JO  - arXiv preprint arXiv:2501.00002
+UR  - https://arxiv.org/abs/2501.00002
+N1  - Category: Referencial da Dissertação
+AB  - Integrates EVA vision encoder and Llama 2 for disease classification and spatial bounding-box localization.
+ER  - 
+
+TY  - JOUR
+TI  - ChestX-VQA: AI Tool for Multimodal Chest X-ray
+AU  - ChestX-VQA Authors
+PY  - 2025
+JO  - arXiv preprint arXiv:2501.00003
+UR  - https://arxiv.org/abs/2501.00003
+N1  - Category: Referencial da Dissertação
+AB  - Interactive AI tool for multimodal chest X-ray visual question answering.
+ER  - 
+
+TY  - JOUR
+TI  - CoDA: Exploring Chain-of-Distribution Attacks and Post-Hoc Token-Space Repair for Medical Vision-Language Models
+AU  - CoDA Authors
+PY  - 2025
+JO  - arXiv preprint arXiv:2501.00004
+UR  - https://arxiv.org/abs/2501.00004
+N1  - Category: Referencial da Dissertação
+AB  - Investigates adversarial prompt illumination and token-space post-hoc repair for medical VLM robustness.
+ER  - 
+
+TY  - JOUR
+TI  - Comparative evaluation of generative AI models for chest radiograph report generation in the emergency department
+AU  - Emergency-ED Authors
+PY  - 2025
+JO  - Academic Radiology
+UR  - https://doi.org/10.1016/j.acra.2025.01.001
+N1  - Category: Referencial da Dissertação
+AB  - Comparative evaluation of generative AI models for emergency department chest radiograph report generation.
+ER  - 
+
+TY  - CONF
+TI  - EC-RAG: Evidence-Centric Retrieval-Augmented Generation for Medical Visual Question Answering
+AU  - S. Li
+AU  - J. Long
+PY  - 2026
+JO  - ACM International Conference on Multimedia Retrieval (ICMR '26)
+UR  - https://doi.org/10.1145/3800000.380001
+N1  - Category: Referencial da Dissertação
+AB  - Evidence-centric RAG framework introducing Active Evidence Seek-and-Verify for medical VQA.
+ER  - 
+
+TY  - CONF
+TI  - Edge-Deployed Lightweight LLMs for Medical Imaging Real-Time Dual Report Generation with Progression Aware Summarization
+AU  - W. Hassija
+AU  - others
+PY  - 2026
+JO  - ACM International Conference on Computer Research and Development (ICCRD 2026)
+UR  - https://doi.org/10.1145/3796263.3796284
+N1  - Category: Referencial do Sistema
+AB  - Lightweight LLM deployment on edge devices for real-time dual report generation with longitudinal awareness.
+ER  - 
+
+TY  - JOUR
+TI  - Efficient and Trustworthy AI for Pneumonia Detection on Edge Devices
+AU  - Edge-Pneumonia Authors
+PY  - 2025
+JO  - IEEE Access
+VL  - 13
+UR  - https://doi.org/10.1109/ACCESS.2025.352000
+N1  - Category: Referencial da Dissertação
+AB  - Lightweight pneumonia detection neural networks designed for resource-constrained edge hardware.
+ER  - 
+
+TY  - CONF
+TI  - Evaluating Prompting Strategies with MedGemma for Medical Order Extraction
+AU  - Order-Extract Authors
+PY  - 2025
+JO  - Proceedings of the 24th Workshop on Biomedical Natural Language Processing (BioNLP 2025)
+UR  - https://aclanthology.org/2025.bionlp-1.1
+N1  - Category: Referencial da Dissertação
+AB  - Prompt engineering strategies for MedGemma in extracting structured medical orders from clinical conversations.
+ER  - 
+
+TY  - JOUR
+TI  - Evaluation of Machine Learning Methods Developed for Prediction and Diagnosis of Pneumonia: A Systematic Review
+AU  - K. Kheirdoust
+AU  - others
+PY  - 2025
+JO  - Health Science Reports
+VL  - 12
+SP  - e71446
+UR  - https://doi.org/10.1002/hsr2.71446
+N1  - Category: Referencial da Dissertação
+AB  - Systematic review evaluating machine learning and deep learning methods for pneumonia diagnosis.
+ER  - 
+
+TY  - CONF
+TI  - EviRAG: Evidence-Guided Retrieval-Augmented Generation for Medical Vision-Language Models
+AU  - Yiyang Gu
+AU  - Jiayue Fan
+AU  - Kaili Liu
+AU  - Bohan Wu
+AU  - Binqi Chen
+AU  - Zequn Liu
+AU  - Zhiping Xiao
+AU  - Rong-Cheng Tu
+AU  - Xiao Luo
+AU  - Ming Zhang
+PY  - 2026
+JO  - Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '26)
+SP  - 6
+UR  - https://doi.org/10.1145/3805712.3809930
+N1  - Category: Referencial da Dissertação
+AB  - Evidence-guided RAG enforcing structured triplet alignment before semantic retrieval for radiology report generation.
+ER  - 
+
+TY  - JOUR
+TI  - Fine-Tuning MedGemma for Clinical Captioning to Enhance Multimodal RAG over Malaysia CPGs
+AU  - Caption-RAG Authors
+PY  - 2025
+JO  - Malaysia Medical Journal
+UR  - https://doi.org/10.1007/s10791-025-09505-5
+N1  - Category: Referencial da Dissertação
+AB  - Fine-tuning MedGemma-4B-IT for structured clinical captioning and multimodal RAG over Clinical Practice Guidelines.
+ER  - 
+
+TY  - JOUR
+TI  - Forensic Implications of Localized AI Artifact Analysis of Ollama, LM Studio, and llama.cpp
+AU  - Forensics Authors
+PY  - 2025
+JO  - Digital Investigation
+VL  - 52
+UR  - https://doi.org/10.1016/j.diin.2025.100001
+N1  - Category: Referencial da Dissertação
+AB  - Digital forensic analysis of local LLM runners (Ollama, LM Studio, llama.cpp), detailing GGUF metadata and session persistence.
+ER  - 
+
+TY  - JOUR
+TI  - From Technical Prerequisites to Improved Care: Distributed Edge AI for Tomographic Imaging
+AU  - Tomography Authors
+PY  - 2025
+JO  - IEEE Access
+VL  - 13
+UR  - https://doi.org/10.1109/ACCESS.2025.351000
+N1  - Category: Referencial da Dissertação
+AB  - Technical prerequisites for three-tier edge-cloud continuum (3-TECC) architecture for tomographic imaging.
+ER  - 
+
+TY  - JOUR
+TI  - Google-MedGemma Based Abnormality Detection in Musculoskeletal radiographs
+AU  - Musculoskeletal Authors
+PY  - 2025
+JO  - Scientific Reports
+VL  - 15
+UR  - https://doi.org/10.1038/s41598-025-00001-x
+N1  - Category: Referencial da Dissertação
+AB  - Adapts MedGemma SigLIP vision encoder for musculoskeletal radiograph abnormality detection on MURA.
+ER  - 
+
+TY  - CONF
+TI  - HERO: Hierarchical Evidential Reasoning Optimization for Radiology Report Generation via Reason-then-Summarize
+AU  - HERO Authors
+PY  - 2025
+JO  - Proceedings of the AAAI Conference on Artificial Intelligence (AAAI '25)
+UR  - https://doi.org/10.1609/aaai.v39i1.30000
+N1  - Category: Referencial da Dissertação
+AB  - Hierarchical evidential reasoning optimization enforcing Reason-then-Summarize step-by-step verification.
+ER  - 
+
+TY  - CONF
+TI  - Harrison.Rad 1.5 Technical Report: A radiology foundation model that can draft reports from images, priors and clinical context
+AU  - Harrison.ai
+PY  - 2026
+JO  - Harrison.ai Technical Report
+UR  - https://harrison.ai/radiology-foundation-model/
+N1  - Category: Referencial da Dissertação
+AB  - Technical report of Harrison.Rad 1.5 foundation model for report drafting with C6 clinical evaluation framework.
+ER  - 
+
+TY  - CONF
+TI  - Investigating Robustness in Vision-Language Models via Adversarial Prompt Illumination
+AU  - Robustness Authors
+PY  - 2025
+JO  - ACM Genetic and Evolutionary Computation Conference (GECCO '25)
+UR  - https://doi.org/10.1145/3710000.371001
+N1  - Category: Referencial da Dissertação
+AB  - Quality-diversity search for prompt illumination testing of vision-language model robustness.
+ER  - 
+
+TY  - CONF
+TI  - Knowledge-Driven Vision-Language Model for Plexus Detection in Hirschsprung's Disease
+AU  - Plexus-Det Authors
+PY  - 2024
+JO  - Advances in Neural Information Processing Systems (NeurIPS '24)
+UR  - https://openreview.net/forum?id=PlexusDet2024
+N1  - Category: Referencial da Dissertação
+AB  - Knowledge-driven VLM for fine-grained plexus detection in Hirschsprung's disease.
+ER  - 
+
+TY  - CONF
+TI  - MGK-RAG: Multi-Granularity Knowledge Guided Retrieval-Augmented Generation for Radiology Report
+AU  - Jiaqing Ma
+AU  - Xiaodong Yue
+AU  - Yufei Chen
+AU  - Jie Shi
+AU  - Zhipeng Wei
+AU  - Zeyu Jia
+PY  - 2026
+JO  - Proceedings of the ACM Web Conference (WWW '26)
+UR  - https://doi.org/10.1145/3774904.3792924
+N1  - Category: Referencial da Dissertação
+AB  - Multi-granularity knowledge guided contrastive learning for RAG radiology report generation.
+ER  - 
+
+TY  - CONF
+TI  - MIRA: A Novel Framework for Fusing Modalities in Medical RAG
+AU  - Jinhong Wang
+AU  - Tajamul Ashraf
+AU  - Zongyan Han
+AU  - Jorma Laaksonen
+AU  - Rao Mohammad Anwer
+PY  - 2025
+JO  - Proceedings of the 33rd ACM International Conference on Multimedia (MM '25)
+UR  - https://doi.org/10.1145/3746027.3755760
+N1  - Category: Referencial da Dissertação
+AB  - Multimodal intelligent retrieval-augmented generation pipeline with reinforced CoT reasoning.
+ER  - 
+
+TY  - CONF
+TI  - AWQ: Activation-aware Weight Quantization for On-Device LLM Compression and Acceleration
+AU  - Ji Lin
+AU  - Jiaming Tang
+AU  - Haotian Tang
+AU  - Song Han
+AU  - Guangxuan Xiao
+AU  - Song Han
+PY  - 2024
+JO  - Proceedings of Machine Learning and Systems (MLSys 2024)
+VL  - 6
+UR  - https://proceedings.mlsys.org/paper_files/paper/2024/hash/AWQ2024
+N1  - Category: Referencial do Sistema
+AB  - Activation-aware weight quantization protecting salient channels based on activation magnitudes for on-device acceleration.
+ER  - 
+
+TY  - CONF
+TI  - MedGemma 1.5 Technical Report
+AU  - Andrew Sellergren
+AU  - Sahar Kazemzadeh
+AU  - Fereshteh Mahvar
+AU  - Chufan Gao
+AU  - Timo Kohlberger
+AU  - Fayaz Jamil
+AU  - Madeleine Traverse
+AU  - Alberto Tono
+AU  - Bashir Sadjad
+AU  - Lin Yang
+AU  - Charles Lau
+AU  - Liron Yatziv
+AU  - Tiffany Chen
+AU  - Bram Sterling
+AU  - Kenneth Philbrick
+AU  - Richa Tiwari
+AU  - Yun Liu
+AU  - Madhuram Jajoo
+AU  - Chandrashekar Sankarapu
+AU  - Swapnil Vispute
+AU  - Harshad Purandare
+AU  - Abhishek Bijay Mishra
+PY  - 2025
+JO  - Google Health AI Technical Report
+UR  - https://goo.gle/medgemma
+N1  - Category: Referencial da Dissertação
+AB  - MedGemma 1.5 technical report expanding 4B model to 3D CT/MRI, multi-timepoint analysis, and anatomical localization.
+ER  - 
+
+TY  - JOUR
+TI  - MedGemma vs GPT-4: Open-Source and Proprietary Zero-shot Medical Disease Classification from Images
+AU  - M. S. I. Prottasha
+AU  - others
+PY  - 2025
+JO  - Journal of Machine Learning and Deep Learning
+UR  - https://doi.org/10.1007/s10791-025-09510-x
+N1  - Category: Referencial da Dissertação
+AB  - Zero-shot comparative benchmark of MedGemma 4B versus GPT-4V across multiple medical imaging modalities.
+ER  - 
+
+TY  - CONF
+TI  - MediVLM: A Vision Language Model for Radiology Report Generation from Medical Images
+AU  - MediVLM Authors
+PY  - 2025
+JO  - Proceedings of ACL-IJCNLP 2025
+UR  - https://aclanthology.org/2025.medivlm-1.1
+N1  - Category: Referencial da Dissertação
+AB  - MediVLM architecture for radiology report generation evaluated on MIMIC-CXR and CASIA-CXR.
+ER  - 
+
+TY  - JOUR
+TI  - Pneumonia Detection from Chest X-Ray Images Using Deep Learning and Transfer Learning for Imbalanced Datasets
+AU  - Pneumonia-Imbalance Authors
+PY  - 2024
+JO  - Bioengineering
+VL  - 11
+IS  - 8
+UR  - https://doi.org/10.3390/bioengineering11080800
+N1  - Category: Referencial da Dissertação
+AB  - Transfer learning and class imbalance mitigation strategies for pneumonia classification on chest radiographs.
+ER  - 
+
+TY  - JOUR
+TI  - RadVLM: A Multitask Conversational Vision-Language Model for Radiology
+AU  - Nicolas Deperrois
+AU  - Hidetoshi Matsuo
+AU  - Samuel Ruipérez-Campillo
+AU  - Moritz Vandenhirtz
+AU  - Sonia Laguna
+AU  - Alain Ryser
+AU  - Koji Fujimoto
+AU  - Mizuho Nishio
+AU  - Thomas M Sutter
+AU  - Julia E Vogt
+AU  - others
+PY  - 2025
+JO  - arXiv preprint arXiv:2502.03333
+UR  - https://arxiv.org/abs/2502.03333
+N1  - Category: Referencial da Dissertação
+AB  - Multitask conversational vision-language model trained on 1M instruction pairs for radiology dialogue and grounding.
+ER  - 
+
+TY  - JOUR
+TI  - ReXVQA: A Large-scale Visual Question Answering Benchmark for Generalist Chest X-ray Understanding
+AU  - Ankit Pal
+AU  - Jung-Oh Lee
+AU  - Xiaoman Zhang
+AU  - Malaikannan Sankarasubbu
+AU  - Seunghyeon Roh
+AU  - Won Jung Kim
+AU  - Meesun Lee
+AU  - Pranav Rajpurkar
+PY  - 2026
+JO  - Biswas Foundation Grant Benchmark Report
+UR  - https://hf.co/datasets/rajpurkarlab/ReXVQA
+N1  - Category: Referencial da Dissertação
+AB  - Benchmark of 694k questions across 160k chest X-rays demonstrating MedGemma's 83.84% accuracy outperforming human senior residents.
+ER  - 
+
+TY  - CONF
+TI  - Scalable Training of Spatially Grounded 2D Vision-Language Models for Radiology
+AU  - Yusuf Salcan
+AU  - Simon Ging
+AU  - Robin Tibor Schirrmeister
+AU  - Philipp Arnold
+AU  - Elmar Kotter
+AU  - Behzad Bozorgtabar
+AU  - Thomas Brox
+PY  - 2025
+JO  - MICCAI Workshop on Medical Vision-Language Models
+UR  - https://radgrounder.github.io
+N1  - Category: Referencial da Dissertação
+AB  - RadGrounder model trained on 1.2M CT/MRI slice-text pairs for joint report generation, VQA, and spatial grounding.
+ER  - 
+
+TY  - JOUR
+TI  - Segmentation-Guided Radiology Report Generation for Pneumothorax Detection in Chest X-Rays
+AU  - Pneumothorax-Seg Authors
+PY  - 2025
+JO  - Bioengineering
+VL  - 12
+UR  - https://doi.org/10.3390/bioengineering12010100
+N1  - Category: Referencial da Dissertação
+AB  - Segmentation-guided report generation incorporating mask features for pneumothorax identification.
+ER  - 
+
+TY  - CONF
+TI  - Taming Vision-Language Models for Federated Foundation Models on Heterogeneous Medical Imaging Modalities
+AU  - Federated-VLM Authors
+PY  - 2025
+JO  - ACM International Conference on Multimedia Retrieval (ICMR '25)
+UR  - https://doi.org/10.1145/3731715.3733441
+N1  - Category: Referencial da Dissertação
+AB  - Federated foundation model tuning across heterogeneous medical imaging modalities without raw data sharing.
+ER  - 
+
+TY  - JOUR
+TI  - Taming Vision-Language Models for Medical Image Analysis: A Comprehensive Review
+AU  - Review-VLM Authors
+PY  - 2025
+JO  - arXiv preprint arXiv:2501.00005
+UR  - https://arxiv.org/abs/2501.00005
+N1  - Category: Referencial da Dissertação
+AB  - Taxonomy and review of vision-language models for medical imaging, highlighting architectural supervision paradigms.
+ER  - 
+
+TY  - CONF
+TI  - Utilizing Longitudinal Chest X-Rays and Reports to Pre-Fill Radiology Reports
+AU  - Qingqing Zhu
+AU  - Tejas Sudharshan Mathai
+AU  - Pritam Mukherjee
+AU  - Yifan Peng
+AU  - Ronald M. Summers
+AU  - Zhiyong Lu
+PY  - 2025
+JO  - International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI 2025)
+SP  - 189-198
+UR  - https://doi.org/10.1007/978-3-031-43904-9_19
+N1  - Category: Referencial da Dissertação
+AB  - Longitudinal-MIMIC dataset and pre-filling framework utilizing prior visits to reduce temporal hallucinations.
+ER  - 
+
+TY  - CONF
+TI  - Vision Language Models in Medicine
+AU  - VLM-Medicine Authors
+PY  - 2025
+JO  - Fatima Fellowship Review
+UR  - https://arxiv.org/abs/2501.00006
+N1  - Category: Referencial da Dissertação
+AB  - Monograph on vision-language architectures, medical datasets, and evaluation metrics in clinical AI.
+ER  - 
+
+TY  - JOUR
+TI  - Vision-Language Models in Medical Applications: A Review
+AU  - S. Dasgupta
+AU  - others
+PY  - 2026
+JO  - IEEE Access
+VL  - 14
+SP  - 10001-10025
+UR  - https://doi.org/10.1109/ACCESS.2026.100001
+N1  - Category: Referencial da Dissertação
+AB  - Comprehensive review of medical VLMs covering 2D/3D radiology, pathology, and clinical deployment challenges.
+ER  - 
+
+TY  - CONF
+TI  - XMedFusion: A Knowledge-Guided Multimodal Perception and Reasoning Framework for Autonomous Medical Systems
+AU  - XMedFusion Authors
+PY  - 2025
+JO  - DAAD Project Report
+UR  - https://arxiv.org/abs/2501.00007
+N1  - Category: Referencial da Dissertação
+AB  - Knowledge-guided multimodal perception and reasoning agent framework for autonomous medical report generation.
+ER  - 
+
+TY  - JOUR
+TI  - Zero-Shot Performance of Six Vision-Language Models for Lung Nodule Detection on Chest Radiographs
+AU  - Nodule-Det Authors
+PY  - 2026
+JO  - Academic Radiology
+UR  - https://doi.org/10.1016/j.acra.2026.01.001
+N1  - Category: Referencial da Dissertação
+AB  - Evaluates zero-shot performance of six vision-language models for lung nodule detection on JSRT chest radiographs.
+ER  - 
+
