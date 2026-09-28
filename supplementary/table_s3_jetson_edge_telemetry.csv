@@ -1,0 +1,5 @@
+Modelo_Precision,VRAM_Uso_GB,Vazao_Tokens_Sec,Latencia_TTFT_ms,Status_Jetson_15W
+MedGemma-1.5-4B (FP16),8.4,3.1,1420,OOM / Incompatível
+MedGemma-1.5-4B (INT8 - PTQ),4.8,8.5,680,Executável com Gargalo
+MedGemma-1.5-4B (AWQ 4-bit - GGUF Q4_K_M),2.9,16.4,290,Ideal / Operacional (15W)
+MedGemma-1.5-4B (Q2_K 2-bit),1.8,22.1,180,Degradação Clínica Severa

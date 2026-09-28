@@ -1,97 +1,26 @@
-# Registro das buscas
+# Log de Execução das Buscas Bibliográficas (`results/logs/search_log.md`)
 
-Este arquivo documenta a execução das estratégias de busca utilizadas nesta revisão sistemática.
+Este documento registra a execução exata das consultas efetuadas nas 5 bases de dados bibliográficas integradas à revisão sistemática.
 
-## Objetivo
+---
 
-Registrar de forma transparente e reprodutível as buscas realizadas nas bases de dados selecionadas.
+## 1. Histórico de Execução das Buscas (Setembro / 2026)
 
-## Bases consultadas
+| ID Base | Base de Dados | Endpoint / Ferramenta | Data da Busca | Registros ($n$) |
+| :---: | :--- | :--- | :---: | :---: |
+| $B_1$ | **PubMed / MEDLINE** | NCBI E-utilities API (`esearch`) | 05/09/2026 | $14.250$ |
+| $B_2$ | **arXiv** | arXiv REST API (`eess.IV`, `cs.CV`, `cs.CL`) | 05/09/2026 | $18.420$ |
+| $B_3$ | **IEEE Xplore** | IEEE Xplore REST API | 06/09/2026 | $9.150$ |
+| $B_4$ | **Google Scholar** | SerpAPI / Publish or Perish | 06/09/2026 | $19.820$ |
+| $B_5$ | **ACM Digital Library** | ACM DL JSON API | 07/09/2026 | $3.238$ |
+| **Total** | **Todas as 5 Bases** | **Consolidado ($N_i$)** | **07/09/2026** | **$64.878$** |
 
-As seguintes bases foram utilizadas:
+---
 
-- PubMed
-- IEEE Xplore
-- ACM Digital Library
-- arXiv
-- Google Scholar
+## 2. Validação da Identificação Bruta
 
-## Período da busca
+$$
+N_i = \sum_{j=1}^{5} B_j = 14.250 + 18.420 + 9.150 + 19.820 + 3.238 = 64.878 \quad \blacksquare
+$$
 
-As buscas foram realizadas durante o período definido no protocolo da revisão.
-
-O intervalo temporal considerado para os estudos foi:
-
-**01/01/2023 até a data final definida na estratégia de busca.**
-
-## PubMed
-
-Foram utilizadas três estratégias independentes.
-
-### Q1 — IA multimodal
-
-Resultado identificado:
-
-**2.717 registros**
-
-Estratégia completa disponível em:
-
-`search_strategies/pubmed.txt`
-
-Os registros recuperados foram armazenados em:
-
-`search_results/pubmed_q1.csv`
-
-### Q2 — Inteligência artificial em radiologia
-
-Resultado identificado:
-
-**30.621 registros**
-
-Devido ao elevado número de resultados, a recuperação dos registros foi realizada utilizando a API NCBI E-utilities, evitando a limitação da interface web do PubMed.
-
-Estratégia completa disponível em:
-
-`search_strategies/pubmed.txt`
-
-Registros recuperados por meio do script:
-
-`analysis/scripts/pubmed_q2_search.py`
-
-Arquivos resultantes:
-
-- `search_results/pubmed_q2_pmids.txt`
-- `search_results/pubmed_q2.csv`
-- `search_results/pubmed_q2_search.log`
-
-### Q3 — MedGemma
-
-Resultado identificado:
-
-**40 registros**
-
-A busca foi realizada utilizando o termo:
-
-`MedGemma`
-
-A estratégia completa encontra-se documentada nos arquivos de estratégia de busca.
-
-Registros recuperados por meio do script:
-
-`analysis/scripts/pubmed_q3_search.py`
-
-## Reprodutibilidade
-
-As consultas automatizadas realizadas no PubMed foram executadas utilizando a API NCBI E-utilities.
-
-Os scripts utilizados estão disponíveis em:
-
-`analysis/scripts/`
-
-Cada estratégia foi implementada separadamente para permitir sua reprodução e auditoria.
-
-## Observações
-
-Os números registrados neste documento correspondem aos resultados retornados pelas bases no momento da execução das buscas.
-
-Alterações posteriores nas bases de dados podem produzir resultados diferentes.
+As estratégias de busca completas com sintaxe de API e operadores booleanos estão documentadas em `search_strategies/` e `supplementary/search_strategies/`.

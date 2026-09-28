@@ -11,8 +11,8 @@ O projeto utiliza uma arquitetura de desenvolvimento híbrida dividida em dois n
 ### 1.1 Servidor de Treinamento e Fine-Tuning (Host Server)
 
 - **GPU:** NVIDIA RTX 4090 (24 GB VRAM GDDR6X).
-- **CPU:** AMD Ryzen 9 7950X (16 cores, 32 threads).
-- **Memória RAM:** 64 GB DDR5.
+- **CPU:** AMD Ryzen 7 5800X (8 cores, 16 threads).
+- **Memória RAM:** 128 GB DDR4.
 - **Armazenamento:** 2 TB NVMe PCIe 4.0.
 - **Função no Projeto:** Fine-tuning supervisionado (SFT) do MedGemma 1.5 4B via QLoRA/LoRA em float16/bfloat16 com imagens do dataset **BRAX do Albert Einstein**.
 

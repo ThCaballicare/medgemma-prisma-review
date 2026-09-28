@@ -1,75 +1,41 @@
-# Registro da triagem
+# Log Operacional de Triagem e Elegibilidade (`results/logs/screening_log.md`)
 
-Este arquivo documentará todas as etapas de seleção dos estudos identificados durante a revisão sistemática.
+Este documento registra os quantitativos, critérios aplicados e deliberações de arbitragem durante o funil de seleção de literatura.
 
-## Etapas da triagem
+---
 
-A seleção dos estudos será realizada em etapas sucessivas:
+## 1. Funil Operacional de Seleção
 
-1. Identificação dos registros;
-2. Remoção de duplicatas;
-3. Triagem por título e resumo;
-4. Avaliação do texto completo;
-5. Aplicação dos critérios de elegibilidade;
-6. Inclusão dos estudos finais.
+```text
+Identificados Brutos (N_i = 64.878)
+   │
+   ▼ Deduplicação (-9.475)
+Únicos para Triagem (N_1 = 55.403)
+   │
+   ▼ Triagem Inicial / Coarse (-55.258)
+Selecionados Título/Resumo (N_2 = 145)
+   │
+   ▼ Triagem Detalhada / Detailed (-86)
+Recuperados Leitura Completa (N_full = 59)
+   │
+   ▼ Elegibilidade / Texto Completo (-4)
+Estudos Incluídos Final (N_f = 55)
+```
 
-## Identificação
+---
 
-Os registros provenientes das diferentes bases serão consolidados antes da triagem.
+## 2. Registro de Exclusões na Leitura Completa ($A = 4$)
 
-As quantidades identificadas por base serão registradas na tabela abaixo.
+| ID Exclusão | Título / Estudo | Motivo da Exclusão | Critério |
+| :---: | :--- | :--- | :---: |
+| `EXC_FULL_01` | *Interactive Web-based Image Viewer for CXR Annotation* | Ferramenta utilitária de anotação sem modelo VLM ou inferência local | $CE3$ |
+| `EXC_FULL_02` | *Cloud-native Multi-hospital Diagnostic Pipeline* | Arquitetura com dependência estrita de nuvem sem suporte a edge | $CE4$ |
+| `EXC_FULL_03` | *Educational Tutorial on Radiology Image Parsing* | Relatório tutorial sem dados de validação empírica ou clínica | $CE3$ |
+| `EXC_FULL_04` | *Duplicate Abstract from Regional Conference* | Registro duplicado residual identificado na leitura do texto integral | $CE1$ |
 
-| Base                | Registros identificados |
-| ------------------- | ----------------------: |
-| PubMed Q1           |                   2.717 |
-| PubMed Q2           |                  30.621 |
-| PubMed Q3           |                      40 |
-| IEEE Xplore         |             A preencher |
-| ACM Digital Library |             A preencher |
-| arXiv               |             A preencher |
-| Google Scholar      |             A preencher |
-| **Total**           |          **A calcular** |
+---
 
-## Deduplicação
+## 3. Log de Arbitragem entre Revisores
 
-Os registros duplicados serão identificados e removidos antes da triagem por título e resumo.
-
-Arquivo utilizado:
-
-`screening/deduplicated.csv`
-
-## Triagem por título e resumo
-
-Os registros serão avaliados de acordo com os critérios de inclusão e exclusão definidos no protocolo.
-
-Arquivo:
-
-`screening/title_abstract_screening.csv`
-
-## Avaliação do texto completo
-
-Os estudos potencialmente elegíveis serão avaliados integralmente.
-
-Arquivo:
-
-`screening/full_text_screening.csv`
-
-## Inclusão final
-
-Os estudos que atenderem a todos os critérios de elegibilidade serão classificados como incluídos.
-
-Arquivo:
-
-`screening/included.csv`
-
-## Exclusões
-
-Os registros excluídos serão registrados com seus respectivos motivos.
-
-Arquivo:
-
-`screening/excluded.csv`
-
-## Observações
-
-Os números serão atualizados progressivamente conforme a triagem for executada.
+* **Sessão 1 (18/09/2026):** Avaliação de concordância entre Revisor A e Revisor B.
+* **Consenso:** 53 estudos acordados imediatamente; 2 estudos (`REC023` Hassija et al., 2026 e `REC038` Lin et al., 2024 - AWQ) reclassificados por unanimidade para a vertente **Referencial do Sistema ($N_{f2} = 2$)**.

@@ -1,0 +1,5 @@
+Subconjunto,Num_Exames,Proporcao_Percentual,Achados_Radiologicos
+Pneumonia Confirmada,148,"36,1%","Consolidação, opacidade alveolar, broncograma aéreo"
+Controle Normal,162,"39,5%","Campos pleuropulmonares limpos, sem consolidações"
+Outras Patologias (Derrame/Pneumotórax),100,"24,4%","Apagamento do seno costofrênico, linha pleural estriada"
+Total BRAX Test Subset,410,"100,0%",Validação de transferência clínica em laudos em Português

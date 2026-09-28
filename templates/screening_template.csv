@@ -1,0 +1,2 @@
+record_id,paper_name,title,authors,year,source_database,is_duplicate,title_abstract_status,full_text_status,exclusion_reason,final_decision,dual_output_category
+[REC_ID],[File_Name_or_Title],[Article_Title],[Author_List],[YYYY],[Source_Database],[True/False],[Included/Excluded],[Retrieved/Excluded],[Exclusion_Criterion_Code],[Included/Excluded],[Referencial da Dissertação / Referencial do Sistema]

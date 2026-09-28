@@ -1,0 +1,12 @@
+stage_id,stage_name,symbol,count,retention_rate_pct,rejection_rate_pct,description,validation_formula
+1,Identificação Bruta,N_i,0,100.0,0.0,Registros brutos recuperados nas bases de dados,N_i = sum(B_j)
+2,Deduplicação,D,0,0.0,0.0,Registros duplicados identificados e removidos,N_1 = N_i - D
+3,Registros Únicos para Triagem,N_1,0,0.0,0.0,Estudos únicos submetidos à triagem inicial,N_1 = N_i - D
+4,Excluídos na Triagem Inicial,T_1,0,0.0,0.0,Descarte por título e resumo (coarse screening),N_2 = N_1 - T_1
+5,Selecionados para Triagem Detalhada,N_2,0,0.0,0.0,Estudos elegíveis para avaliação detalhada de resumo,N_2 = N_1 - T_1
+6,Excluídos na Triagem Detalhada,T_2,0,0.0,0.0,Descarte na análise detalhada de resumo,N_full = N_2 - T_2
+7,Recuperados para Leitura Completa,N_full,0,0.0,0.0,Artigos obtidos para avaliação em texto completo,N_full = N_2 - T_2
+8,Excluídos na Leitura Completa,A,0,0.0,0.0,Descarte na avaliação de elegibilidade em texto completo,N_f = N_full - A
+9,Estudos Científicos Incluídos,N_f,0,0.0,0.0,Corpus final de estudos incluídos na revisão,N_f = N_f1 + N_f2
+10,Referencial da Dissertação,N_f1,0,0.0,0.0,Subconjunto para fundamentação teórica geral,N_f = N_f1 + N_f2
+11,Referencial do Sistema,N_f2,0,0.0,0.0,Subconjunto para engenharia aplicada e hardware edge,N_f = N_f1 + N_f2

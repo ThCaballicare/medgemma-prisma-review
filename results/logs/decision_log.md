@@ -1,49 +1,31 @@
-# Registro das decisões de triagem
+# Diário de Decisões Metodológicas (`results/logs/decision_log.md`)
 
-Este arquivo documenta decisões relevantes tomadas durante o processo de triagem e seleção dos estudos.
+Este documento registra as decisões formais tomadas durante a concepção, condução e refinamento do protocolo de revisão sistemática de literatura.
 
-## Objetivo
+---
 
-Garantir transparência, rastreabilidade e reprodutibilidade das decisões tomadas durante a revisão sistemática.
+## Registro Histórico de Decisões
 
-## Critérios
+### `DEC-001` — Adoção do Fluxo PRISMA de Saída Dupla (Dual-Output)
+* **Data:** 10/09/2026
+* **Contexto:** Necessidade de separar estudos focados em fundamentação teórica/clínica daqueles focados em engenharia de software e hardware de borda.
+* **Decisão:** O corpus final de $N_f = 55$ estudos foi particionado em **Referencial da Dissertação ($N_{f1} = 53$)** e **Referencial do Sistema ($N_{f2} = 2$)**.
+* **Impacto:** Permite análises direcionadas sem misturar métricas de acurácia radiológica com benchmarks de throughput físico de GPU/NPU.
 
-As decisões devem seguir exclusivamente os critérios estabelecidos em:
+### `DEC-002` — Fixação do Target de Hardware Edge e Perfil Energético
+* **Data:** 12/09/2026
+* **Contexto:** Diversidade de dispositivos de borda na literatura (Raspberry Pi, Jetson Nano, Smartphones).
+* **Decisão:** Padronizar os testes experimentais e a análise do sistema na plataforma **NVIDIA Jetson Orin Nano (8 GB VRAM)** sob restrição estrita de energia (**15W**) e motor `llama.cpp`.
+* **Impacto:** Estabelece um baseline realista e replicável para ambientes hospitalares e radiologia de campo sem conectividade com a nuvem.
 
-- `protocol/eligibility.md`
-- `docs/inclusion_criteria.md`
-- `docs/exclusion_criteria.md`
+### `DEC-003` — Seleção do Dataset BRAX para Validação Diagnóstica
+* **Data:** 15/09/2026
+* **Contexto:** Necessidade de validar modelos de linguagem visual em dados radiológicos de língua portuguesa.
+* **Decisão:** Incorporar o dataset **BRAX do Hospital Albert Einstein** (com subset validado de 148 exames com diagnóstico de pneumonia).
+* **Impacto:** Garante avaliação clínica contextualizada para o cenário hospitalar brasileiro.
 
-## Regras para exclusão
-
-Cada estudo excluído durante a avaliação do texto completo deverá possuir um motivo de exclusão claramente definido.
-
-Os motivos devem ser padronizados sempre que possível.
-
-Exemplos:
-
-- Fora do período definido;
-- População inadequada;
-- Modalidade de imagem inadequada;
-- Não relacionado à radiologia;
-- Não relacionado a modelos multimodais;
-- Não relacionado ao MedGemma;
-- Artigo de revisão;
-- Editorial;
-- Carta ao editor;
-- Resumo de congresso;
-- Texto completo indisponível;
-- Duplicata;
-- Outro motivo metodologicamente justificado.
-
-## Registro das decisões
-
-| ID  | Estudo | Etapa | Decisão | Motivo | Observação |
-| --- | ------ | ----- | ------- | ------ | ---------- |
-| —   | —      | —     | —       | —      | —          |
-
-## Observações
-
-As decisões devem ser registradas de maneira objetiva e fundamentadas nos critérios previamente definidos.
-
-Alterações nos critérios de elegibilidade após o início da triagem deverão ser documentadas neste arquivo e justificadas metodologicamente.
+### `DEC-004` — Reestruturação do Diretório `results/`
+* **Data:** 27/09/2026
+* **Contexto:** Necessidade de separar produtos visuais/anexos dos logs operacionais de auditoria.
+* **Decisão:** Criar as subpastas `results/figures/`, `results/appendix/` e `results/logs/`.
+* **Impacto:** Elimina a duplicação da fonte da verdade e assegura auditabilidade rigorosa.
